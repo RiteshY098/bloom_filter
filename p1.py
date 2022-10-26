@@ -2,7 +2,7 @@
 a = int(input("enter the number ")) 
 arr = []                               # create empty list/ array
 arr = [0 for k in range (8)]           # fill that list with zeros and range describes the number of zeros in that list 
-def decimaltobinary(n):                # from line 5 - 9 i had converted a number into binary 
+def decimaltobinary(n):                # from line 5 - 9 i converted a number into binary 
     return "{0:b}".format(int(n)) 
 if __name__ == '__main__':
     b = decimaltobinary(a)
